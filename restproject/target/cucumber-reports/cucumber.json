@@ -1,0 +1,47 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-11T02:11:20.992Z",
+        "line": 3,
+        "name": "Working with RestAPI",
+        "description": "",
+        "id": "rahul-shetty-academy;working-with-restapi",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User operates the post and get",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User operates put",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Rahul Shetty Academy",
+    "description": "",
+    "id": "rahul-shetty-academy",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/cs3.feature",
+    "tags": []
+  }
+]

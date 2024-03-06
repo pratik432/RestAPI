@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.588 s <<< FAILURE! - in TestSuite
+runner.TestRunner.runScenario["Working with RestAPI", "Optional[Rahul Shetty Academy]"](1)  Time elapsed: 0.287 s  <<< FAILURE!
+io.cucumber.testng.UndefinedStepException: 
+The step 'User operates the post and get' and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User operates the post and get")
+public void user_operates_the_post_and_get() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Given("User operates put")
+public void user_operates_put() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+
